@@ -21,7 +21,7 @@ The Dark Sky API allows you to look up the weather anywhere on the globe, return
 
 
 ## Used data
-I'll request the next data (from the Dark Sky API) to make this possible:
+I request the next data (from the Dark Sky API) to make this possible:
 
 * Windspeed: The wind speed in miles per hour.
 * Wind bearing: The direction that the wind is coming from in degrees, with true north at 0° and progressing clockwise. (If windSpeed is zero, then this value will not be defined.)
