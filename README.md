@@ -1,4 +1,4 @@
-## Single page app - The waves and the chance on sunburning
+# Single page app - The waves and the chance on sunburning
 
 
 
