@@ -26,7 +26,7 @@ I'll request the next data (from the Dark Sky API) to make this possible:
 * Windspeed: The wind speed in miles per hour.
 * Wind bearing: The direction that the wind is coming from in degrees, with true north at 0° and progressing clockwise. (If windSpeed is zero, then this value will not be defined.)
 * Temperature: The temperature in degree Celsius or Fahrenheit.
-
+* UV-index: how big is the risk on sunburning?
 
 ## How to fetch data from the Dark Sky API?
 
