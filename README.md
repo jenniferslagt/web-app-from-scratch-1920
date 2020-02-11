@@ -5,6 +5,9 @@
 ## Description 
 I made a single page app for surfers in which I used the Dark Sky API. This allows them to take a look at the current weather of their location. In this way, they can check the waves (based on the wind) and if it's necessary to project yourself against the sun. 
 
+## Actor and Interactive Diagram
+
+
 ## What is "Dark Sky API"?
 
 What is an API? 
