@@ -6,7 +6,12 @@
 I made a single page app for surfers in which I used the Dark Sky API. This allows them to take a look at the current weather of their location. In this way, they can check the waves (based on the wind) and if it's necessary to project yourself against the sun. 
 
 ## Actor and Interactive Diagram
+I made an actor and an interactive diagram to make a visual presentation of my application.
+
+An Actor diagram is focused on (code)objects that can be seen as the actors of your code. Every actor handles a function. So your diagram is made of modules (like location) and the corresponding functions (like navigator.geolocation()).
 ![Schermafbeelding 2020-02-13 om 09 31 16](https://user-images.githubusercontent.com/45489420/74415442-a9658700-4e43-11ea-8181-8006316142e0.png)
+
+An interactive diagram is about the user flow between the components on your application. What kind of actions happen in your app? And in what order?
 ![Schermafbeelding 2020-02-13 om 09 31 24](https://user-images.githubusercontent.com/45489420/74415444-a9fe1d80-4e43-11ea-8282-283827853697.png)
 
 ## What is "Dark Sky API"?
