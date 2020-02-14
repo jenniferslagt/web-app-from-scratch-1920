@@ -1,19 +1,80 @@
 body {
-    background-color: #1da2d8;
-    background-size: cover;
+    background-color:#ffda61;
+    position: cover;
+    background-repeat: no-repeat;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
 } 
 
-.location-name, .content{
-    text-align: center;
-    color: white;
-    /* text-shadow: 2px 2px #000000; */
-    position: relative;
-    text-transform: uppercase;
-    position: relative; 
-    top: 180px;
+h1 {
+    color: black;
+    font-size: 17px;
+    margin-left: 10%;
+    padding-top: 20px;
 }
 
-.location-timezone {
-    font-size: 50px;
+.content{
+    text-align: center;
+    color: black;
+    position: relative;
+    text-transform: uppercase;
+    top: 100px;
+    /* overflow:hidden; */
 }
+
+h3 {
+    font-size: 17px;
+    color: grey;
+}
+
+.location-timezone, .location-name, section[data-route='choose-sunburning'], section[data-route='choose-waves']   {
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: 10%;
+}
+
+.location-timezone, h3 {
+    padding: 15px 0;
+    margin: 0 10%;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+}
+
+li a:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    padding: 1rem;
+    opacity: 0;
+    transition: 0.25s;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  section.active {
+    opacity: 1;
+  }

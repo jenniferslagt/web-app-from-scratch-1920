@@ -5,44 +5,50 @@
     </head>
 
     <body> 
+        <h1> Time to surf!? </h1>
+        <!-- <a href="#top"></a> -->
         <div class = "location-name"> 
-        <h3>The moment of waves in:</h3>
+        <h3>Current location</h3>
         <div class = "location"></div>
         <h1 class = "location-timezone">Time-zone</h1>
         </div>
 
+        <ul>
+            <li><a href="#waves">Check the waves</a></li>
+            <li><a href="#sun">Check the chance on sunburning</a></li>
+        </ul>
+
     <div class = "content">
-        <p>icon</p>
-        <a href="#top"></a>
+        <!-- <p>icon</p> -->
 
-        <p>Windspeed:</p>
-        <div class = "windspeed"></div>
-        <span>miles per hour</span>
+        <section data-route="choose-waves">
+            <h3>Windspeed:</h3>
+            <div class = "windspeed"></div>
+            <span>miles per hour</span>
 
-        <p>Direction of the wind:</p>
-        <div class = "windbearing"></div>
+            <h3>Direction of the wind:</h3>
+            <div class = "windbearing"></div>
+        </section>
 
-        <h3>Chance on sunburning:</h3>
-
-        <p>UV index:</p>
-        <div class = "uv-index"> </div>
-    
-        <div class = "temperature">
+        <section data-route="choose-sunburning">
+            <h3>Chance on sunburning</h3>
+            <p>UV index:</p>
+            <div class = "uv-index"> </div>
+        
+            <div class = "temperature">
             <div class="degree-section"></div>
 
-        <h2 class="temperature-degree">34</h2>
-        <span>F</span>
+            <h2 class="temperature-degree">34</h2>
+            <span>F</span>
 
-        <div class="temperature-description">Summary of the weather</div>
-        </div>
-
-            <a href="#test1"> show this</a>
-
-        <section id="hoi">
-            <h1>Hoi </h1>
-            <a href="#top">Back to the top</a>
-
+            <h3>The current weather</h3>
+            <div class="temperature-description">Summary of the weather</div>
+            </div>
         </section>
+
+            <section id="hoi">
+            <h1>Hoi </h1>
+            </section>
 
      </div>
     
