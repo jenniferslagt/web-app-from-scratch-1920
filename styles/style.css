@@ -1,14 +1,17 @@
 body {
-    background-color:#ffda61;
-    position: cover;
-    background-repeat: no-repeat;
+    background-image: url(../images/enrapture-captivating-media-nMZB_qeVWBU-unsplash.jpg);
+    /* #ffda61 */
+    background-size: cover;
+    background-position: unset;
+    background-repeat: no-repeat; 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    /* overflow: hidden; */
 } 
 
 h1 {
-    color: black;
+    color: white;
     font-size: 17px;
-    margin-left: 10%;
+    margin-left: 20px;
     padding-top: 20px;
 }
 
@@ -18,21 +21,26 @@ h1 {
     position: relative;
     text-transform: uppercase;
     top: 100px;
+    margin-left: 20px;
     /* overflow:hidden; */
 }
 
-h3 {
+h2, p {
+    padding: 15px 0;
+    margin: 0 10%;
     font-size: 17px;
     color: grey;
 }
 
 .location-timezone, .location-name, section[data-route='choose-sunburning'], section[data-route='choose-waves']   {
     font-size: 30px;
+    font-weight: bold;
     color: black;
+    width: 100%;
     background-color: white;
     border-radius: 20px;
-    max-width: 400px;
-    margin: 10%;
+    margin-top: 200px;
+    padding-bottom: 10px;
 }
 
 .location-timezone, h3 {
@@ -53,8 +61,8 @@ li a {
     font-weight: bold;
     border-radius: 20px;
     padding: 10px;
-    margin: 10px;
-    display: inline;
+    margin-left: 20px;
+    /* display: inline; */
 }
 
 li a:hover {
