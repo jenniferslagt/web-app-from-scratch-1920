@@ -1,9 +1,5 @@
 export const allSections = document.querySelectorAll('section');
 export const myRouter = routie({
-    // 'test1': function() {
-    //     windSpeeds.insertAdjacentHTML('beforeend', `<div>blabla</div>`)
-    // }
-    // ,
     waves: () => {
         updateUI('choose-waves');
     },

@@ -1,5 +1,3 @@
-// import {setElements} from './render.js'
-
 export function location (){
     console.log('🌍 Requesting location')
     return new Promise((resolve,reject) => {

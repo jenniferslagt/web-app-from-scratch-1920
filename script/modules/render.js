@@ -1,6 +1,3 @@
-
-
-
 export function renderData(data) {
 // Making variables which select the DOM elements
 const windSpeeds = document.querySelector(".windspeed");
