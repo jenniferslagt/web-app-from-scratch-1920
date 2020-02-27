@@ -41,6 +41,32 @@ I request the next data (from the Dark Sky API) to make this possible:
 ## How to fetch data from the Dark Sky API?
 
 ## My learning goals
+I've learned a lot in past few weeks. I also have written a lot in my wiki about my learned subject. I've learned: 
+* How to work with an external API (Dark Sky).
+* How to retrieve data and to manipulate it with filter, map and reduce.
+* How to render data on my HTML page.
+* How to make a actor and a interactive diagram.
+* What a promise is and how it works.
+* How to add routes from a micro library by cloning a routie.js file from github.
+* How to add structure to my code by applying modules based on the actor diagram.
+* How to manage a loading state in my application to inform that the user needs to wait for the data.
+<br>
+* I also learned a few things that were actually not a part of my goals, but it was certainly very related and interesting to learn about:
+  - How to interact with data in a array / object. I had some struggles with manipulating my data, because I needed a array to apply a filter/map/reduce. My big question was: How can I create a data structur which is easy to manipulate? Well, here is my answer: there are three methods for objects (with a specific syntax). Here are the methods: <br>
+1. Object.keys(obj) – returns an array of keys.
+2. Object.values(obj) – returns an array of values.
+3. Object.entries(obj) – returns an array of [key, value] pairs.
+
+  
+  
+  
+
+
+You can add structure to your code by applying patterns. You can defend the choice for the chosen patterns
+You can retrieve data, manipulate it and dynamically convert it to html elements using templating
+You understand how you can work with an external API using asynchronous code
+You understand how you can manage state in your application and you inform the user of state where necessary
+
 
 ## Sources
 
