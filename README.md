@@ -1,5 +1,5 @@
 # Single page app - The waves and the chance on sunburning
-![Schermafbeelding 2020-02-27 om 21 23 56](https://user-images.githubusercontent.com/45489420/75483634-90aeb280-59a7-11ea-93d8-393cf8f387cf.png)
+![WAFS](https://user-images.githubusercontent.com/45489420/75483823-e08d7980-59a7-11ea-9937-1cbaabdc449b.png)
 
 
 ## Description 
