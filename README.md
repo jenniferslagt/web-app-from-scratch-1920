@@ -1,6 +1,6 @@
 # Single page app - The waves and the chance on sunburning
 ![WAFS](https://user-images.githubusercontent.com/45489420/75483823-e08d7980-59a7-11ea-9937-1cbaabdc449b.png)
-
+[Visit the website here!](https://jenniferslagt.github.io/web-app-from-scratch-1920/)
 
 ## Description 
 I made a single page app for surfers in which I used the Dark Sky API. This allows them to take a look at the current weather of their location. In this way, they can check the waves (based on the wind) and if it's necessary to project yourself against the sun. 
