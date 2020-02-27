@@ -1,5 +1,5 @@
 # Single page app - The waves and the chance on sunburning
-![Schermafbeelding 2020-02-07 om 10 26 08](https://user-images.githubusercontent.com/45489420/74017304-5186d600-4994-11ea-851a-c7d847b90a19.png)
+![Schermafbeelding 2020-02-27 om 21 23 56](https://user-images.githubusercontent.com/45489420/75483634-90aeb280-59a7-11ea-93d8-393cf8f387cf.png)
 
 
 ## Description 
@@ -58,6 +58,8 @@ I've learned a lot in past few weeks. I also have written a lot in my wiki about
 2. Object.values(obj) – returns an array of values. <br>
 3. Object.entries(obj) – returns an array of [key, value] pairs.<br>
 <br>
+- I also learned more about github itself. For example, I added a project in which I made my planning. 
+
 <b><i>You can go to my wiki to read more about my learning goals.</i></b>
  
 ## Sources
