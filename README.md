@@ -30,7 +30,6 @@ The Dark Sky API allows you to look up the weather anywhere on the globe, return
 * Severe weather alerts in the US, Canada, European Union member nations, and Israel.
 
 
-
 ## Used data
 I request the next data (from the Dark Sky API) to make this possible:
 
@@ -40,6 +39,31 @@ I request the next data (from the Dark Sky API) to make this possible:
 * UV-index: how big is the risk on sunburning?
 
 ## How to fetch data from the Dark Sky API?
+I wrote the function `getData(location)` to fetch the data. In this function I gave "location" which determines the current location of the user. This is neccessary because the data is based on the location.
+This is how I fetched the data: 
+```
+import {
+    location
+} from "./location.js"
+
+export function getData(location) {
+    const proxy = "https://cors-anywhere.herokuapp.com/";
+    const api = `${proxy}https://api.darksky.net/forecast/21282b7046eefae6d54cf3fa0cf9d8bc/${location.lat},${location.long}`; 
+    // console.log('api: ', api)
+    return new Promise((resolve, reject) => {
+        fetch(api)
+            .then(data => {
+                return data.json();
+            })
+            .then(data => {
+                resolve(data);
+                // console.log(data)
+                })
+            .catch(err => reject(err));
+    })
+}
+```
+When the data is fetched, it gets converted and return as a JSON data type to make it readable. 
 
 ## My learning goals
 I've learned a lot in past few weeks. I also have written a lot in my wiki about my learned subject. I've learned: 
