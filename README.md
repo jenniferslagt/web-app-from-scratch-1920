@@ -65,7 +65,7 @@ I've learned a lot in past few weeks. I also have written a lot in my wiki about
 <b><i>You can go to my wiki to read more about my learning goals.</i></b>
  
 ## Sources
-* [Dark Sky API](https://darksky.net/dev)
+* [Dark Sky API](https://darksky.net/dev) <br>
 <b><i>You can go to my wiki to find the sources per topic.</i></b>
 
 ## What if I had more time?
