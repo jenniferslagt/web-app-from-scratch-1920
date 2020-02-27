@@ -51,6 +51,7 @@ I've learned a lot in past few weeks. I also have written a lot in my wiki about
 * How to add structure to my code by applying modules based on the actor diagram.
 * How to manage a loading state in my application to inform that the user needs to wait for the data.
 <br>
+
 * I also learned a few things that were actually not a part of my goals, but it was certainly very related and interesting to learn about:<br>
 - How to interact with data in a array / object. I had some struggles with manipulating my data, because I needed a array to apply a filter/map/reduce. My big question was: How can I create a data structur which is easy to manipulate? Well, here is my answer: there are three methods for objects (with a specific syntax). Here are the methods: <br>
 1. Object.keys(obj) – returns an array of keys.<br>
