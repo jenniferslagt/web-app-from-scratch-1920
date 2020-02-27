@@ -3,12 +3,12 @@
 [Visit the website here!](https://jenniferslagt.github.io/web-app-from-scratch-1920/)
 
 ## Description 
-I made a single page app for surfers in which I used the Dark Sky API. This allows them to take a look at the current weather of their location. In this way, they can check the waves (based on the wind) and if it's necessary to project yourself against the sun. 
+I made a single page app for surfers in which I used the Dark Sky API. This allows them to take a look at the current weather of their location. In this way, they can check the waves (based on the wind) and if it's necessary to project theirselves against the sun. 
 
 ## Actor and Interactive Diagram
 I made an actor and an interactive diagram to make a visual presentation of my application.
 
-An Actor diagram is focused on (code)objects that can be seen as the actors of your code. Every actor handles a function. So your diagram is made of modules (like location) and the corresponding functions (like navigator.geolocation()).
+An Actor diagram is focused on (code)objects that can be seen as the actors of your code. Every actor handles a function. So your diagram is made of modules (like location) and the corresponding functions (like location()).
 ![Schermafbeelding 2020-02-27 om 21 35 10](https://user-images.githubusercontent.com/45489420/75484461-2139c280-59a9-11ea-90df-5aeb87f76c99.png)
 
 
@@ -55,7 +55,7 @@ I've learned a lot in past few weeks. I also have written a lot in my wiki about
 
 * I also learned a few things that were actually not a part of my goals, but it was certainly very related and interesting to learn about:<br>
 
-- How to interact with data in a array / object. I had some struggles with manipulating my data, because I needed a array to apply a filter/map/reduce. My big question was: How can I create a data structur which is easy to manipulate? Well, here is my answer: there are three methods for objects (with a specific syntax). Here are the methods: <br>
+-How to interact with data in a array / object. I had some struggles with manipulating my data, because I needed a array to apply a filter/map/reduce. My big question was: How can I create a data structur which is easy to manipulate? Well, here is my answer: there are three methods for objects (with a specific syntax). Here are the methods: <br>
 1. Object.keys(obj) – returns an array of keys.<br>
 2. Object.values(obj) – returns an array of values. <br>
 3. Object.entries(obj) – returns an array of [key, value] pairs.<br>
@@ -65,6 +65,7 @@ I've learned a lot in past few weeks. I also have written a lot in my wiki about
 <b><i>You can go to my wiki to read more about my learning goals.</i></b>
  
 ## Sources
+* [Dark Sky API](https://darksky.net/dev)
 <b><i>You can go to my wiki to find the sources per topic.</i></b>
 
 ## What if I had more time?
