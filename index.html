@@ -1,61 +1,59 @@
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
-        <title>Waves and chance on sunburning</title>
-    </head>
 
-    <body> 
-        <h1> Time to surf!? </h1>
-        <!-- <a href="#top"></a> -->
-        <div class = "location-name"> 
-        <h2>Current location</h2>
-        <div class = "location"></div>
-        <p class = "location-timezone">Time-zone</p>
-        </div>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Waves and chance on sunburning</title>
+</head>
 
-        <ul>
-            <li><a href="#waves">Check the waves</a></li>
-            <li><a href="#sun">Check the chance on sunburning</a></li>
-        </ul>
+<body>
 
-    <div class = "content">
-        <!-- <p>icon</p> -->
+    <h1> Time to surf!? </h1>
+    <ul>
+        <li><a href="#waves">Check the waves</a></li>
+        <li><a href="#sun">Check the chance on sunburning</a></li>
+    </ul>
+    <br>
+    <div class="location-name">
+        <h2>Current location:</h2>
+        <div class="location"></div>
+        <p class="location-timezone">Time-zone</p>
+    </div>
 
-        <section data-route="choose-waves">
-            <h3>Windspeed:</h3>
-            <div class = "windspeed"></div>
+    <div class="content">
+        <div id="loading">Loading..</div>
+
+        <section class="sectionWaves" data-route="choose-waves">
+            <h3><u>Windspeed</u></h3>
+            <div class="windspeed"></div>
             <p>miles per hour</p>
-
-            <h3>Direction of the wind:</h3>
-            <div class = "windbearing"></div>
+            <h3><u>Direction of the wind</u></h3>
+            <div class="windbearing"></div>
         </section>
 
-        <section data-route="choose-sunburning">
-            <h3>Chance on sunburning</h3>
+        <section class="sectionSun" data-route="choose-sunburning">
+            <h3><u>Chance on sunburning</u></h3>
             <p>UV index:</p>
-            <div class = "uv-index"> </div>
-        
-            <div class = "temperature">
-            <div class="degree-section"></div>
+            <div class="uv-index"> </div>
 
-            <h3 class="temperature-degree">34</h3>
-            <p>F</p>
+            <div class="temperature">
+                <div class="degree-section"></div>
 
-            <h3>The current weather</h3>
-            <div class="temperature-description">Summary of the weather</div>
+                <h3 class="temperature-degree">34</h3>
+                <p>F</p>
+
+                <h3><u>The current weather</u></h3>
+                <div class="temperature-description">Summary of the weather</div>
             </div>
         </section>
 
-            <section id="hoi">
+        <section id="hoi">
             <h4>Hoi </h4>
-            </section>
+        </section>
 
-     </div>
-    
-        <script src="library/routes.js"></script>
-        <script type="module" src="script/app.js"></script>
-        <!-- <script type="module" src="script/app.js"></script> -->
+    </div>
 
-   
-    </body>
+    <script src="library/routes.js"></script>
+    <script type="module" src="script/app.js"></script>
+</body>
+
 </html>

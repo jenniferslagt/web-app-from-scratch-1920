@@ -1,88 +1,85 @@
 body {
     background-image: url(../images/enrapture-captivating-media-nMZB_qeVWBU-unsplash.jpg);
-    /* #ffda61 */
-    background-size: cover;
-    background-position: unset;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
-    /* overflow: hidden; */
-} 
-
+    overflow: hidden;
+    margin: 0;
+}
 h1 {
     color: white;
     font-size: 17px;
     margin-left: 20px;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
-
 .content{
     text-align: center;
     color: black;
     position: relative;
-    text-transform: uppercase;
-    top: 100px;
-    margin-left: 20px;
-    /* overflow:hidden; */
 }
-
+.sectionSun {
+    top: 240px;
+    position: fixed;
+}
+.sectionWaves {
+    top: 240px;
+    position: fixed;
+}
 h2, p {
     padding: 15px 0;
-    margin: 0 10%;
+    text-align: center;
     font-size: 17px;
     color: grey;
 }
-
-.location-timezone, .location-name, section[data-route='choose-sunburning'], section[data-route='choose-waves']   {
+.location-timezone, .location-name, section[data-route='choose-sunburning'], section[data-route='choose-waves'] {
     font-size: 30px;
     font-weight: bold;
     color: black;
     width: 100%;
     background-color: white;
-    border-radius: 20px;
-    margin-top: 200px;
-    padding-bottom: 10px;
 }
-
-.location-timezone, h3 {
-    padding: 15px 0;
-    margin: 0 10%;
+.location-name {
+    padding-bottom: 25px;
 }
-
-
+.location-timezone{
+    color:#4e8ee6;
+    font-style: italic;
+}
 li {
     float: left;
 }
-
 li a {
     text-align: center;
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-color: #ffdc42;
+    font-size: 15px;
     font-weight: bold;
     border-radius: 20px;
     padding: 10px;
     margin-left: 20px;
-    /* display: inline; */
 }
-
 li a:hover {
-    opacity: 0.8;
+    font-size: 16px;
 }
-
 ul {
     list-style-type: none;
+    text-align: center;
 }
-
 section {
-    padding: 1rem;
     opacity: 0;
     transition: 0.25s;
-    position: absolute;
     width: 100%;
-    top: 0;
-    left: 0;
-  }
-
-  section.active {
+}
+section.active {
     opacity: 1;
-  }
+    height: 100%;
+}
+#loading{
+    display: none;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: white;
+    background-size: 100px 100px;
+}
