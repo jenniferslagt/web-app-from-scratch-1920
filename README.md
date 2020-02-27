@@ -53,39 +53,19 @@ I've learned a lot in past few weeks. I also have written a lot in my wiki about
 <br>
 * I also learned a few things that were actually not a part of my goals, but it was certainly very related and interesting to learn about:<br>
 - How to interact with data in a array / object. I had some struggles with manipulating my data, because I needed a array to apply a filter/map/reduce. My big question was: How can I create a data structur which is easy to manipulate? Well, here is my answer: there are three methods for objects (with a specific syntax). Here are the methods: <br>
-1. Object.keys(obj) – returns an array of keys.
-2. Object.values(obj) – returns an array of values.
-3. Object.entries(obj) – returns an array of [key, value] pairs.
-
+1. Object.keys(obj) – returns an array of keys.<br>
+2. Object.values(obj) – returns an array of values. <br>
+3. Object.entries(obj) – returns an array of [key, value] pairs.<br>
+<br>
 <b><i>You can go to my wiki to read more about my learning goals.</i></b>
-  
-
-
-You can add structure to your code by applying patterns. You can defend the choice for the chosen patterns
-You can retrieve data, manipulate it and dynamically convert it to html elements using templating
-You understand how you can work with an external API using asynchronous code
-You understand how you can manage state in your application and you inform the user of state where necessary
-
-
+ 
 ## Sources
+<b><i>You can go to my wiki to find the sources per topic.</i></b>
 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+## What if I had more time?
+Well, if I had more time, this will be my "wishlist":
+* I am very curious about local storage. So will definitely take a look at this.
+* I would like to discover more micro libraries. What kind of micro libraries are there?
+* I would like to add a kind of state when someone rejects to give his current location. Maybe an error state can be interesting for this.
+* I will add more CSS to my page so there is a better user experience.
