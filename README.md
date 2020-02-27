@@ -9,7 +9,8 @@ I made a single page app for surfers in which I used the Dark Sky API. This allo
 I made an actor and an interactive diagram to make a visual presentation of my application.
 
 An Actor diagram is focused on (code)objects that can be seen as the actors of your code. Every actor handles a function. So your diagram is made of modules (like location) and the corresponding functions (like navigator.geolocation()).
-![Schermafbeelding 2020-02-27 om 20 52 13](https://user-images.githubusercontent.com/45489420/75481311-209e2d80-59a3-11ea-927f-93072c1ef989.png)
+![Schermafbeelding 2020-02-27 om 21 35 10](https://user-images.githubusercontent.com/45489420/75484461-2139c280-59a9-11ea-90df-5aeb87f76c99.png)
+
 
 An interactive diagram is about the user flow between the components on your application. What kind of actions happen in your app? And in what order?
 ![Schermafbeelding 2020-02-27 om 20 52 21](https://user-images.githubusercontent.com/45489420/75481316-23008780-59a3-11ea-8a5f-a13f7bec3b0a.png)
@@ -53,18 +54,18 @@ I've learned a lot in past few weeks. I also have written a lot in my wiki about
 <br>
 
 * I also learned a few things that were actually not a part of my goals, but it was certainly very related and interesting to learn about:<br>
+
 - How to interact with data in a array / object. I had some struggles with manipulating my data, because I needed a array to apply a filter/map/reduce. My big question was: How can I create a data structur which is easy to manipulate? Well, here is my answer: there are three methods for objects (with a specific syntax). Here are the methods: <br>
 1. Object.keys(obj) – returns an array of keys.<br>
 2. Object.values(obj) – returns an array of values. <br>
 3. Object.entries(obj) – returns an array of [key, value] pairs.<br>
 <br>
 - I also learned more about github itself. For example, I added a project in which I made my planning. 
-
+<br>
 <b><i>You can go to my wiki to read more about my learning goals.</i></b>
  
 ## Sources
 <b><i>You can go to my wiki to find the sources per topic.</i></b>
-
 
 ## What if I had more time?
 Well, if I had more time, this will be my "wishlist":
@@ -72,3 +73,6 @@ Well, if I had more time, this will be my "wishlist":
 * I would like to discover more micro libraries. What kind of micro libraries are there?
 * I would like to add a kind of state when someone rejects to give his current location. Maybe an error state can be interesting for this.
 * I will add more CSS to my page so there is a better user experience.
+
+## Credits
+I would like to thank the teachers, the extra "help students", the visitors and my fellow students for helping me to accomplish my learning goals. 
