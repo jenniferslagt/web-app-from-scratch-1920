@@ -39,6 +39,7 @@ I request the next data (from the Dark Sky API) to make this possible:
 
 ## How to fetch data from the Dark Sky API?
 
+## My learning goals
 
 ## Sources
 
