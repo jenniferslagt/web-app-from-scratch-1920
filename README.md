@@ -63,7 +63,7 @@ I've learned a lot in past few weeks. I also have written a lot in my wiki about
 - I also learned more about github itself. For example, I added a project in which I made my planning. 
 <br> 
 <br>
-<b><i>You can go to my [wiki](https://github.com/jenniferslagt/web-app-from-scratch-1920/wiki) to read more about my learning goals.</i></b>
+<b><i>You can go to my wiki to read more about my learning goals.</i></b> [Visit wiki.](https://github.com/jenniferslagt/web-app-from-scratch-1920/wiki)
  
 ## Sources
 * [Dark Sky API](https://darksky.net/dev) <br>
