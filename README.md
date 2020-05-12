@@ -65,6 +65,19 @@ export function getData(location) {
 ```
 When the data is fetched, it gets converted and return as a JSON data type to make it readable. 
 
+## The difference between a promise and a new promise
+As you'll see, I fetched the data from the API by returning a new promise. What is a new promise?
+
+Let start with a "normal" promise. A promise is actually an object which represents the eventual completion (or failure) of an asynchronous operation, and its resulting value. The asynchronous operation is about the part where you want to fetch data from the api and the resultating value is the data. Instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
+
+A Promise is in one of these states:
+
+pending: initial state, neither fulfilled nor rejected.
+fulfilled: meaning that the operation completed successfully.
+rejected: meaning that the operation failed.
+
+But what about new promises? `new Promise` is actually a syntax of promise. When called via new, the Promise constructor (`Promise()`) returns a promise object. The promise object will become "resolved" when either of the functions resolutionFunc or rejectionFunc are invoked. Note that if you call resolutionFunc or rejectionFunc and pass another Promise object as an argument, you can say that it is "resolved", but still cannot be said to be "settled".
+ 
 ## My learning goals
 I've learned a lot in past few weeks. I also have written a lot in my wiki about my learned subject. I've learned: 
 * How to work with an external API (Dark Sky).
