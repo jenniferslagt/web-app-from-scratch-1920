@@ -7,21 +7,15 @@
 
 <body>
 
-    <h1> Time to surf!? </h1>
-    <ul>
-        <li><a href="#waves">Check the waves</a></li>
-        <li><a href="#sun">Check the chance on sunburning</a></li>
-    </ul>
-    <br>
-    <div class="location-name">
-        <h2>Current location:</h2>
-        <div class="location"></div>
-        <p class="location-timezone">Time-zone</p>
-    </div>
+    <!-- home page -->
+    <h1> Time to surf!? Check the best surfspots in Europe! </h1>
 
+    <div class="list"></div>
     <div class="content">
+        <!-- Loading state -->
         <div id="loading">Loading..</div>
 
+        <!-- section check the waves -->
         <section class="sectionWaves" data-route="choose-waves">
             <h3><u>Windspeed</u></h3>
             <div class="windspeed"></div>
@@ -29,29 +23,7 @@
             <h3><u>Direction of the wind</u></h3>
             <div class="windbearing"></div>
         </section>
-
-        <section class="sectionSun" data-route="choose-sunburning">
-            <h3><u>Chance on sunburning</u></h3>
-            <p>UV index:</p>
-            <div class="uv-index"> </div>
-
-            <div class="temperature">
-                <div class="degree-section"></div>
-
-                <h3 class="temperature-degree">34</h3>
-                <p>F</p>
-
-                <h3><u>The current weather</u></h3>
-                <div class="temperature-description">Summary of the weather</div>
-            </div>
-        </section>
-
-        <section id="hoi">
-            <h4>Hoi </h4>
-        </section>
-
     </div>
-
     <script src="library/routes.js"></script>
     <script type="module" src="script/app.js"></script>
 </body>

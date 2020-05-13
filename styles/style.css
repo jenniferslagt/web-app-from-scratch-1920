@@ -1,85 +1,147 @@
 body {
-    background-image: url(../images/enrapture-captivating-media-nMZB_qeVWBU-unsplash.jpg);
-    background-repeat: no-repeat;
+    background-color: #f8f8f8;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
-    overflow: hidden;
     margin: 0;
 }
+
 h1 {
     color: white;
+    background-image: url(../images/enrapture-captivating-media-nMZB_qeVWBU-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: 50px;
     font-size: 17px;
-    margin-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-left: 30px;
 }
-.content{
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
+}
+
+article,
+article img {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    margin-bottom: 150px;
+}
+
+article a {
+    text-decoration: none;
+    background-color: orange;
     color: black;
-    position: relative;
+    padding: 15px;
+    font-weight: bold;
 }
-.sectionSun {
-    top: 240px;
+
+article a:hover {
+    color: white;
+    margin-top: 150px;
+}
+
+.sectionSun,
+.sectionWaves,
+.location-1,
+.location-2,
+.location-3,
+.location-4,
+.location-5,
+.location-6 {
+    top: 0px;
     position: fixed;
 }
-.sectionWaves {
-    top: 240px;
-    position: fixed;
-}
-h2, p {
+
+h2,
+p {
     padding: 15px 0;
     text-align: center;
     font-size: 17px;
     color: grey;
 }
-.location-timezone, .location-name, section[data-route='choose-sunburning'], section[data-route='choose-waves'] {
-    font-size: 30px;
-    font-weight: bold;
-    color: black;
-    width: 100%;
-    background-color: white;
+
+.location-1 h1,
+.location-2 h1,
+.location-3 h1,
+.location-4 h1,
+.location-5 h1,
+.location-6 h1 {
+    color: white;
+    font-size: 40px;
+    background: none;
 }
-.location-name {
-    padding-bottom: 25px;
+
+.location-1 img,
+.location-2 img,
+.location-3 img,
+.location-4 img,
+.location-5 img,
+.location-6 img {
+    margin-top: 200px;
+    height: auto;
+    width: 100vw;
 }
-.location-timezone{
-    color:#4e8ee6;
-    font-style: italic;
-}
-li {
-    float: left;
-}
-li a {
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    background-color: #ffdc42;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 20px;
-    padding: 10px;
-    margin-left: 20px;
-}
-li a:hover {
-    font-size: 16px;
-}
-ul {
-    list-style-type: none;
-    text-align: center;
-}
+
+/* Show or hide the section when the UI is updated */
 section {
     opacity: 0;
     transition: 0.25s;
     width: 100%;
 }
+
 section.active {
     opacity: 1;
     height: 100%;
+    background: white;
 }
-#loading{
+
+/* Style the loader */
+#loading {
     display: none;
+    position: fixed;
     width: 100%;
     height: 100%;
     font-weight: bold;
     background-color: white;
     background-size: 100px 100px;
+}
+
+/* Add some style to the detail sections */
+ul {
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0 30px 0;
+}
+
+ul li:nth-child(2) {
+    font-size: 60px;
+    margin: 10px 0 10px 0;
+}
+
+ul.extra-weather-info {
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+ul.extra-weather-info li:nth-child(2) {
+    font-size: 20px;
+}
+
+ul.extra-weather-info li {
+    margin-bottom: 20px;
+}
+
+section[detail-page] img {
+    position: absolute;
+    top: -200;
+    height: 150px;
+    z-index: -1;
+    filter: brightness(0.5);
 }
